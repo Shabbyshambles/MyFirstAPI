@@ -31,22 +31,17 @@ const newspapers = [
 },
 {
     name: 'es',
-    address: 'https://ww.standard.co.uk/topic/climate-change',
+    address: 'https://www.standard.co.uk/topic/climate-change',
     base: "The Standard"
 },
 {
     name: 'sun',
-    address: 'https://www.thesun.co.uk/topic/climate-change.environment/',
+    address: 'https://www.thesun.co.uk/topic/climate-change-environment/',
     base: "The Sun"
 },
 {
     name: 'dm',
     address: 'https://www.dailymail.co.uk/news/climate_change_global_warming/index.html',
-    base: "The Daily Mail"
-},
-{
-    name: 'nyp',
-    address: 'https://nypost.com/tag/climate-change',
     base: "The NY Post"
 },
 {
