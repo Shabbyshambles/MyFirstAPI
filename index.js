@@ -61,8 +61,7 @@ const newspapers = [
 },
 {
     name: 'tcg',
-    address: 'https://store.tcgplayer.com/buylist?_gl=1*1u9h2kf*_gcl_aw*R0NMLjE2NDk4ODg2MDAuQ2p3S0NBanc2ZG1TQmhCa0Vpd0FfVy1Fb0UwSk9uQkJFR3pQYkJHcDhzdXB1ZHFxSnpaQnRiajRQbUI5NE1kdHN1SkFWbG9xdWlYVlh4b0N6MzBRQXZEX0J3RQ..'
-
+    address: 'https://store.tcgplayer.com/buylist',
 }
 ]
 
