@@ -26,7 +26,7 @@ const newspapers = [
 },
 {
     name: 'bbc',
-    address: 'https://www.bbc.co.uk/news/science-and-environment',
+    address: 'https://www.bbc.co.uk/news/science_and_environment',
     base: "The BBC"
 },
 {
