@@ -58,6 +58,11 @@ const newspapers = [
     name: 'un',
     address: 'https://www.un.org/climatechange',
     base: 'The United Nations'
+},
+{
+    name: 'tcg',
+    address: 'https://store.tcgplayer.com/buylist?_gl=1*1u9h2kf*_gcl_aw*R0NMLjE2NDk4ODg2MDAuQ2p3S0NBanc2ZG1TQmhCa0Vpd0FfVy1Fb0UwSk9uQkJFR3pQYkJHcDhzdXB1ZHFxSnpaQnRiajRQbUI5NE1kdHN1SkFWbG9xdWlYVlh4b0N6MzBRQXZEX0J3RQ..'
+
 }
 ]
 
@@ -84,6 +89,8 @@ newspapers.forEach(newspaper => {
 
 app.get('/', (req, res ) => {
     res.json('Welcome to my API')
+
+
 })
 
 app.get('/news', (req, res) => {
@@ -109,7 +116,11 @@ app.get('/news/:newspaperId', async(req, res) => {
                      url,
                      source: newspaperbase
                  })
+
              })
+             $('newspaperId == "tcg")', html).each(function() {
+                 res.send(html)
+             })          
              res.json(specificarticles)
          }).catch(err => console.log(err))
     })
